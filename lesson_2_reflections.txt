@@ -24,3 +24,7 @@ shows the diference between the staging area and the repository
 git reset --hard
 
 removes any changes in the working directory or the staging area
+
+How can you use the staging area to make sure you have one commit per logical change.
+
+- we can do thus by only adding files to the staging area if they are ready to be committed.
