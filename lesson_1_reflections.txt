@@ -1,0 +1,70 @@
+This is the first reflections file. What I have learnt is that diff is used for finding out differences between files and it is used as follows
+
+diff -u filename1 filename2
+
+The difference between the different versions can be spotted and hence it is easier to find bugs.
+
+
+It is also important that we don't write long lines. We should use mutliple lines so that when diff is used it is easier to find flaws. If we write everything in one line then it would be harder to find the bug using diff since there diff can point to one and only line.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- It could suggest us what pathways or mistakes to avoid the next time we do coding. It could give developer an insight into his work and what mistakes he usually make and give him new ideas to become better in avoiding those pitfalls.
+
+Google Docs and wikipedia version control is not for developers because they don't have features like SYNTAX HIGHLIGHTING or PARENTHESIS MATCHING
+
+DROPBOX can be seen as a version control for code since FILE are saved BOTH IN CLOUD AND LOCAL DRIVE, besides it also allows use of whichever EDITOR we want.
+
+Google Drive - NO Editor, allows to save locally but in special format that can be read only by their special editor
+
+Wikipedia - NO Editor, doesn't allow to save local drive
+
+Dropbox - Any editor can be used, allows to save locally but the version can only be seen online.
+
+As a programmer when would you want a version of your program to be saved?
+- 
+
+Git - allows manual save, any editor, offline use.
+
+Version Control - Anything that allows different versions of the same thing.
+
+Each commit has an ID. Date, Author, Time, comment
+
+git diff ID1 ID2
+
+A good rule of thumb for using commit is to use ONE COMMIT PER LOGICAL CHANGE
+
+Two separate bugs are two separate logical changes
+A big feature can have multiple logical ideas inside it, hence it is a big change
+
+-Manual commits
+The only problem i see with automatic versioning is that there will be too many versions or too few versions. 
+With manual commits developer can decide when to commit. It can be a logical change or nothing useful.
+
+Each commit in git commits every file present in the repository since all files together make the code runnable.
+
+
+Why some version control systems allow multiple saving in one commit while other treat each file separately.
+
+- Probably because git is code and whole solution is interconnected whereas in places like google doc it is usually docs that have nothing to do with each other.
+
+
+For smaller problems no version control but for larger files break them into smaller tasks and use version control to go forward and backward with it to do it.
+
+In a GIT LOG, the previous commit is BELOW and not ABOVE the current commit
+
+How can u use git log and git diff to view history of files.
+- By using git log we can find the varioud commit points and by using git diff we can find differences between various commit points and hence the changes and the history that has gone through them.
+
+
+Git Checkout - To temporarily change the file to a previous commit to see what it was like.
+Resetting all the files to how they were when the commit was made.
+
+How might using version control make you more confident to make changes that could break something?
+
+- Simple answer to this question is that git makes it easy to keep track of previous versions and the current version such that developer can easily check various versions to find out when the error came up.
+Another important thing is that the code doesn't have to go back to the previous state. We have the previous state where we can test for issues and then come back to the most recent state. This remove the problem of losing most current state while trying to fix it because we make changes into earlier commits and don't use most recent commit at all.
+
+If on the left prompt we see a star / asterisk with the commit id that means we have made changes to the program and not committed it.
+
+After setting up my workspace, now I wish to start using Git for learning the basic things that i can do from git. For instance making repository and other basic things before moving to complex topics.

@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates a hidden .git folder that keeps track of all the commits
+
+How is the staging area different from the working directory and the repository. What value do you think it offers?
+
+Working directory is the directory in our file system where all the files we are working with are stored. We might want to put these files in a git repository which we initialized. It is possible that we might want to put only some of these files into the git repository for one or more reasons. one of the reasons are that we might want to commit two files together and one file separately because they might be of different logical meanings. To do that we need an intermediate area to do these commits. This intermediate area is staging area where we put the files we need to commit by using "git add" command.
+
+
+
+STANDARD GIT Practice is to ADD COMMIT MESSAGES as if they are commands...for instance instead of using "added this thing into my code", use "Add this". like a command description. 
