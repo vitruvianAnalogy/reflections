@@ -9,3 +9,18 @@ Working directory is the directory in our file system where all the files we are
 
 
 STANDARD GIT Practice is to ADD COMMIT MESSAGES as if they are commands...for instance instead of using "added this thing into my code", use "Add this". like a command description. 
+
+
+"git diff"
+
+shows the difference between working directory and staging area
+
+
+"git diff --staged"
+
+shows the diference between the staging area and the repository
+
+
+git reset --hard
+
+removes any changes in the working directory or the staging area
