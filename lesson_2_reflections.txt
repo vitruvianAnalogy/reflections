@@ -33,3 +33,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 In situations where developer needs to try out fixing a bug, he can leave the code that is running unchanged and test out his changes to fix the bug in a new branch.
 We can take multiple routes or multiple approaches and test them out in different branches.
+
+How do the diagrams help you visualize the branch structure?
+
+Divergence represents more branches. Convergence represents fewer branches. 
