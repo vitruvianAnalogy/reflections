@@ -28,3 +28,8 @@ removes any changes in the working directory or the staging area
 How can you use the staging area to make sure you have one commit per logical change.
 
 - we can do thus by only adding files to the staging area if they are ready to be committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+In situations where developer needs to try out fixing a bug, he can leave the code that is running unchanged and test out his changes to fix the bug in a new branch.
+We can take multiple routes or multiple approaches and test them out in different branches.
