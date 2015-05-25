@@ -39,4 +39,19 @@ How do the diagrams help you visualize the branch structure?
 Divergence represents more branches. Convergence represents fewer branches. 
 
 Combining two branches:
- 
+git merge branch1 branch2
+
+Delete branch - Deletes the label not the commits
+git branch -d branchname
+
+
+Create branch
+git branch -b branchname 
+
+OR
+
+git branch branchname
+git checkout branchname 
+
+
+
