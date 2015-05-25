@@ -1,0 +1,22 @@
+1. The repository on github is added as a 'remote'
+
+Use 'git remote' to view and create remote
+
+2. Since there is only one remote repository in github, it is standard practice to call it origin.
+
+git remote add origin URL
+
+We get the URL of this origin repository from github
+
+3. To verify that the URL was added correctly we run
+
+'git remote -v' where v stands for verbose and gives more information
+This shows the repository from where the code is fetched into the system or to where the code will go/pushed. These two addresses are usually the same.
+
+4. To send changes to the remote i.e. origin repo, we use push command. It takes two arguments, the remote repository where we are sending changes to and the name of the local branch whose changes we are pushing
+
+git push toRemote fromLocal.
+
+If we log into github and check the name of the repository we'll realise that the branch has the name that the local repository branch had.
+
+If there is only one branch in local then most time it is referred to as master and we'll see that master is the name of the repository branch in github too. This is because it takes the name of the local branch automatically.
