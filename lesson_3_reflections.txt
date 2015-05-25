@@ -21,5 +21,7 @@ If we log into github and check the name of the repository we'll realise that th
 
 If there is only one branch in local then most time it is referred to as master and we'll see that master is the name of the repository branch in github too. This is because it takes the name of the local branch automatically.
 
+5. When we want to pull the remote repository in github and sync it with our local repository, then we need to use git pull command and it will pull the master branch from the remote repository to the master branch of the local repository.
 ----------------------------------------------------------------------------------------------------------------------
 When would you want to create remote repository rather than keeping all your work local?
+---------------------------------------------------------------------------------------------
