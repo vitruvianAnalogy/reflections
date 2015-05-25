@@ -9,7 +9,7 @@ Working directory is the directory in our file system where all the files we are
 
 
 STANDARD GIT Practice is to ADD COMMIT MESSAGES as if they are commands...for instance instead of using "added this thing into my code", use "Add this". like a command description. 
-
+i
 
 "git diff"
 
@@ -37,3 +37,6 @@ We can take multiple routes or multiple approaches and test them out in differen
 How do the diagrams help you visualize the branch structure?
 
 Divergence represents more branches. Convergence represents fewer branches. 
+
+Combining two branches:
+ 
