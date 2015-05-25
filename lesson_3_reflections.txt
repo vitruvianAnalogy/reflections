@@ -20,3 +20,6 @@ git push toRemote fromLocal.
 If we log into github and check the name of the repository we'll realise that the branch has the name that the local repository branch had.
 
 If there is only one branch in local then most time it is referred to as master and we'll see that master is the name of the repository branch in github too. This is because it takes the name of the local branch automatically.
+
+----------------------------------------------------------------------------------------------------------------------
+When would you want to create remote repository rather than keeping all your work local?
