@@ -53,5 +53,5 @@ OR
 git branch branchname
 git checkout branchname 
 
-
+MERGING creates a new commit. Therefore if two commit points are merged then a new commit is created which points to both these points.
 
